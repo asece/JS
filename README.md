@@ -4,7 +4,7 @@ Basic JS info
 
 **Factory function and Constructor function**
 
-```bash
+```javascript
 
 >another.constructor
     ƒ Circle(radius){
@@ -15,7 +15,7 @@ Basic JS info
     }
 ```
 
-```bash
+```javascript
   
 >circle.constructor
 
@@ -27,7 +27,7 @@ Every object has a constructor property and that references the function that wa
 
 **Functions are objects**
 
-```bash
+```javascript
 >Circle.name
     "Circle"
 >Circle.length
@@ -36,12 +36,12 @@ Every object has a constructor property and that references the function that wa
     ƒ Function() { [native code] }
 ```
 
-```bash
-Circle.call ({}, 1)     the same as     cosnt another = new Circle(1);
+```javascript
+Circle.call ({}, 1)     /* the same as */     cosnt another = new Circle(1);
 ```
 When new is used it internally creates an empty obj and passes it as the first arg to the call method an this obj will determine the context of this.
 
 If new is not used this will point to the global obect, the window. 
-```bash
+```javascript
 Circle.apply({},[1,2,3])    ->    pass an array 
 ```
