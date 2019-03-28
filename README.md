@@ -2,7 +2,7 @@
 
 Basic JS info
 
-##Factory function and Constructor function
+**Factory function and Constructor function**
 
 ```bash
 
@@ -25,7 +25,7 @@ Basic JS info
 ```
 Every object has a constructor property and that references the function that was used to create that object.
 
-##Functions are objects
+**Functions are objects**
 
 ```bash
 >Circle.name
